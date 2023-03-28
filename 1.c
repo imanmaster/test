@@ -3,9 +3,7 @@
 int main()
 {
 	int n, n2, n3, c, c2;
-	scanf("%d"
-		  "%d"
-		  "%d",
+	scanf("%d" "%d" "%d",
 		  &n, &n2, &n3);
 	if ((n + n2) > n3 && (n2 + n3) > n && (n + n3) > n2)
 	{
